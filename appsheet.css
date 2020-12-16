@@ -1,0 +1,103 @@
+body{
+	padding: 0;
+	margin: 0;
+
+}
+.wrapper{
+	background: 
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.logo{
+	width: 140px;
+	height: 80px;
+	height: auto;
+	padding: 20px,100px;
+
+
+}
+.navbar ul{
+	float: right;
+	margin-right: 100px;
+	
+
+}
+.navbar ul li{
+	list-style: none;
+	
+	display: inline;
+	line-height: 50px;
+	margin-left: 30px;
+	float: left;
+
+
+
+}
+.navbar ul li a{
+	color: white;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+    font-family: 'Roboto', san-serif;
+    text-decoration: none;
+    float: left;
+   display: inline;
+
+
+}
+a:hover{
+	background: green;
+	border-radius: 2px;
+
+}
+.wrapper.center{
+	position: absolute;
+	top:50%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+
+}
+h1{
+	
+	color: green;
+	font-size:40px;
+	font-weight: bold;
+	width: 900px;
+	margin-left: 250px;
+	font-family: cursive;
+
+}
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+    color: green;
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+.footer{
+	background-color: orange;
+    position: absolute;
+    height: 0px;
+  
+    width: 100%;
+   
+}
+.footer2{
+	color: black;
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	
+	width: 100%;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
